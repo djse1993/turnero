@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="4ac4da4c-7297-4b94-87a0-273277e5a375" name="UMLClassDiagram1" linkedPackageId="fb063f99-3dd3-47d4-89c5-39213c2311c4" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d5b1eb75-53c3-47eb-b396-5ebbecbde91c" name="Persona" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f5a4fc87-677a-4ec6-b23a-a665b6ccadac" />
+        <ownedAttributesInternal>
+          <property Id="808665ca-ac30-4f89-8015-3bcb534ab59f" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5992a842-fe05-45b8-8f83-0a896161ff06" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="5d27b5e9-0155-4097-ac6b-624f3cb96030" name="Nombre" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ad84a252-2345-4504-a4e1-234d08e13160" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8e0bf6ff-1e61-409c-a480-ac0ef4c1e86e" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="30779dbd-c2d7-4785-8723-7e4bc6982fb5" name="Visitas" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bce1b69d-3ac2-4319-a31d-ac3d893a1675" />
+        <ownedAttributesInternal>
+          <property Id="8d22cc6e-5d5f-4af0-9dcc-8ef46946142e" name="NumPacientes" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8b205d56-960b-4337-82b7-b450acb28de3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="e76dbe1c-6e81-43aa-a89c-644beb980a75" name="ContPacientes" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7db0da0f-3b7d-4e2a-b76f-59ce5c96c537" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="9a05db7f-b5ab-471d-ba31-3b40f86995a5" name="MoverEstudios" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="88f8aa3c-1bfa-4155-8dbc-f697224f78fd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7c15f4f0-902b-44d2-b99d-bc72c0f637e1" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="dc7aab37-2d52-44de-bec2-98919a595ac8" name="ContEstudios" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4fb9d6eb-6db7-4965-b6bf-b1d7bb2d532a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="9aa11a91-f1cc-4061-8d8e-a95fd764ac19" name="Organizar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="62a89e04-8be6-4c56-8bb1-87ef33f08213" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8ef0867c-824a-43fa-9ca2-f9c37a9019d7" name="Organizar_Pacientes" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="06564fe1-6c90-4c1b-b9b1-59f566868dc5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5b5ba0fa-b2b0-4060-a9e8-a58da1774c6f" name="Bacteriologia" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4d5dfc29-175b-4ed0-bfa4-cd2fd18f9bd4" />
+        <generalsInternal>
+          <generalization Id="6a63ecdb-0345-4c22-b293-76a18dfb81df" isSubstitutable="false">
+            <classMoniker Id="30779dbd-c2d7-4785-8723-7e4bc6982fb5" LastKnownName="Visitas" />
+            <elementDefinition Id="27ab5928-47a0-4b87-bc2e-867754357603" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="d9f54f65-6f42-47ef-adb4-9df93e954a3d" name="Boolean" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9576b703-a160-4350-8a00-540dd63afdd8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="170d3027-bc81-4606-8440-a1bbbb269d53" LastKnownName="Organizado" />
+            </type_NamedElement>
+          </property>
+          <property Id="a9a92a14-f9e6-4e4c-bc49-34a101c16707" name="Hora_realizar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7755c80e-c45c-44ae-8afc-5a53b2b4f13b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5c1a80df-180f-4c66-8f3e-83db0131abaf" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e2d522c0-ff8f-425b-a2f5-ec9f07bffe3c" name="Organizar_Pacientes" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1263cb4c-498c-47a8-b208-8117e69c6dba" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="319bf7d5-978a-472d-b1da-c6715ec9a95d" name="Serologia" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="583bdf2b-eedc-415a-a05f-71d4c8f22c33" />
+        <generalsInternal>
+          <generalization Id="39cd62ab-431d-48a6-bcba-e4229254c140" isSubstitutable="false">
+            <classMoniker Id="30779dbd-c2d7-4785-8723-7e4bc6982fb5" LastKnownName="Visitas" />
+            <elementDefinition Id="ed2b9ab9-416b-4ae6-aa4f-705c28855faa" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="09931abe-c6bd-4f39-b53b-4c2c2e2332ab" name="Boolean" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="93b3762e-e547-420a-adb5-5cc85c3fd206" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="810ab176-4c5e-4b5b-8bee-329ae03a5ffc" LastKnownName="Organizado" />
+            </type_NamedElement>
+          </property>
+          <property Id="df075eb9-f7fc-470b-a7a4-504063be5cb5" name="Hora_realizar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="15502487-8229-42aa-87d3-06b58cf0cdd6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3387c4f2-cf66-4a6f-99a0-cd174d5fba63" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="9a9fa6b0-e520-43d8-bfac-c0a019bbc6a3" name="Organizar_Pacientes" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ca07fc75-7857-4885-ba00-6d31d20e6a81" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="19127cf8-4f23-491d-9529-44f6269f596a" name="Panel Basico" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ce8acf09-bee6-45a9-9f99-87f9d8f56e62" />
+        <generalsInternal>
+          <generalization Id="1d94e8a3-703c-45de-adfc-1f49e07427b7" isSubstitutable="false">
+            <classMoniker Id="30779dbd-c2d7-4785-8723-7e4bc6982fb5" LastKnownName="Visitas" />
+            <elementDefinition Id="728f8c99-7e3a-4574-a12d-16dc2bee1e18" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="49a03b59-7a96-4091-a764-404264fedb47" name="Hora_realizar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1d89cb7d-f0d0-4da4-9c37-eb2e0342e6db" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="08bb2bb0-7b04-4f0b-95e9-b945dd571793" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+          <property Id="b8ee1d45-7f54-433e-88d7-ab57080fd918" name="Boolean" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="487f5395-cf72-4bbc-9108-f32eb30f5b04" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e0fdf50b-dadc-42a6-8f3e-271514779ef7" LastKnownName="Organizado" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="93835870-5f75-4f59-ae2c-6ede85eea5f2" name="Organizar_Pacientes" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4b5a079f-e6b9-4a76-89c4-2d10bf647826" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="693c34f5-1de3-425a-9008-81f478eb9183" name="Quimica Clinica" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1c78e47a-91db-4df3-9548-420205557010" />
+        <generalsInternal>
+          <generalization Id="89270e85-e4de-4de3-90b0-0d8efb3e6055" isSubstitutable="false">
+            <classMoniker Id="30779dbd-c2d7-4785-8723-7e4bc6982fb5" LastKnownName="Visitas" />
+            <elementDefinition Id="0efaf593-997f-4055-873d-793bf42e9f5d" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="f6b0ec4e-b79c-49b0-9828-ddd3330b98ed" name="Hora_realizar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="159fcc9c-5251-4360-a067-1358baca2cbb" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dcde0ba3-f967-422c-aab0-4adc9672e2c3" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e6d18003-cf54-4321-902c-3b5bbdded180" name="Organizar_Pacientes" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bb9cf5c3-0124-4546-b773-07f9c197b487" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="37a35d7e-f373-4d10-80fd-5ac74dd536ae" name="Paciente" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2c21fce8-e9ae-4698-8553-394586f473da" />
+        <generalsInternal>
+          <generalization Id="589eacc1-0bf9-40ec-a0ef-54a60bfd273b" isSubstitutable="false">
+            <classMoniker Id="d5b1eb75-53c3-47eb-b396-5ebbecbde91c" LastKnownName="Persona" />
+            <elementDefinition Id="e0177786-f7d9-4b09-9e96-8aa4d4011f88" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="e42edcb6-7611-4d53-85a5-eb432b42d1a7" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aaa07d26-514e-4f89-8e7c-0f4d5e7c9676" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8e0bf6ff-1e61-409c-a480-ac0ef4c1e86e" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="9d8e470b-c73e-4141-80ba-e6fc4a61603a" name="Nombrepaciente" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="afd3af8f-f8db-410b-94f4-3eac7f45754c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8e0bf6ff-1e61-409c-a480-ac0ef4c1e86e" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="30b840df-2b66-46db-81b2-370c17ad423d" name="NombreESTUDIO" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1d5ec353-ccfa-4d16-a8ba-cfc54e078ae7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="532d37fc-c1bd-42a3-b546-3aa0c6803251" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="39046f1a-9b7e-4f8f-aba6-c72a0fba3c42" name="Tiempo_llegada" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="71b5fa55-cf11-4aeb-ad63-165ad1b162a2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="08bb2bb0-7b04-4f0b-95e9-b945dd571793" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+          <property Id="13ca2353-63ef-47cd-93e6-97de702c55d7" name="ID_Estudios_array" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b693c244-c6e0-480d-bbae-1643fdf8d2a6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="37f6be84-00be-49cc-adcb-dbb75a134a42" LastKnownName="int []" />
+            </type_NamedElement>
+          </property>
+          <property Id="161b0a47-9bc8-402d-a764-67e75e23e27d" name="AUX" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="036e6904-3823-4646-8f6e-3d70eef75231" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="37e5d780-a339-4442-894d-5fd24dc172fd" name="AUX2" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="da218508-1fe7-4675-8d8b-654173a07f29" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="851b77dd-b4c6-4c36-b481-afa598873fa7" name="N" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f0295dfb-c87f-40f6-b3a9-e2418bf1382a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="1cf3192a-b0e5-4d61-8f6b-6b9235960c0b" name="POSMIN" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a48c0d19-3585-4eec-8fc2-264f0a8291ad" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="851e64ad-b6c3-4a56-b096-0fe50743c2ae" name="I_AUX" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="103afa64-bf57-4ed6-a644-c9d94e695598" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="aad3215d-a4b6-40c8-aed1-c38747f10372" name="Estudios_paciente" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6adaa0f4-5688-47b6-a656-c899940c9ce6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8e0bf6ff-1e61-409c-a480-ac0ef4c1e86e" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="2734598c-8324-4007-85bd-e49c7222dd3d" name="HORA" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4887679c-f1fc-4514-87a7-bf87d943b587" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="52420bcc-a027-4dab-9bb3-c09dd8e20fa7" LastKnownName="Datetime" />
+            </type_NamedElement>
+          </property>
+          <property Id="db22a577-ee28-4c36-873e-907c7761c47c" name="CONt_N_Estudios" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="28e0f888-7dd4-48b8-b4f6-e324e1dfe878" />
+          </property>
+          <property Id="8618a0b1-e98e-4e94-a913-3f62e5488b37" name="estudios_part2" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="596d162b-7499-439e-80bf-8d065a1ebde2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="37f6be84-00be-49cc-adcb-dbb75a134a42" LastKnownName="int []" />
+            </type_NamedElement>
+          </property>
+          <property Id="9f1e5cd1-c681-42c0-857e-e0dfac4d3a41" name="Nombre_Paciente" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a5794eef-d2fc-470c-9433-13c8d9bd9dca" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8e0bf6ff-1e61-409c-a480-ac0ef4c1e86e" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="2da98ed7-7828-4f3c-882f-04c9a7ccb8ee" name="ID_Paciente" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b5431c3b-8c8b-4b6b-b3c0-ecdff5ec0371" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="4a633c05-f93c-4bfe-b4bf-8e8d69043b17" name="HORA_ESTUDIO" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bc9cd3c1-dcef-425d-99f4-a0fc0cda0aca" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bd2c55cc-34a8-4546-b395-1a3c29143e2f" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="39da05ab-7b15-4cb9-851a-63b8fd9b68f6" name="TIEMPOMINUTE" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7d96857b-79fa-4959-a5f1-5dcb3eff0cf3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="411e647d-74d2-4a87-8fa0-ead2a586a837" LastKnownName="TimeSpan" />
+            </type_NamedElement>
+          </property>
+          <property Id="bd29bf70-88ab-46e3-a4c3-bd0cc6e82e33" name="ID_STUDY" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3bd5e080-7766-40d8-ac5e-02c40f8fcb21" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bd2c55cc-34a8-4546-b395-1a3c29143e2f" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="8583ad77-6a25-4e21-af75-082110bc4bad" name="CONT" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ce7f076d-1252-4078-98db-7c6e0ccdfc82" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="34d094f7-b191-4969-a072-fa47ca4403de" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="47eedd29-ba82-48fe-aa0b-3b1324e4fbc0" name="Organizar_Matriz" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3c5ed847-6b6f-4c58-9790-a6dee0508095" />
+          </operation>
+          <operation Id="4cecee85-132a-49b7-8d15-001bac50af0c" name="Mayor_Menor" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3bf306ae-4d18-44f3-85f0-59b68ee3bc0e" />
+          </operation>
+          <operation Id="afef0a4b-8f14-4a96-98ec-21cc8f0c41e0" name="Menor_Mayor" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="af798902-2766-4efe-9da0-7121bcbf1d19" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="34d094f7-b191-4969-a072-fa47ca4403de" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="247429c2-6276-4f1e-9cd6-02a6988e28d2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8e0bf6ff-1e61-409c-a480-ac0ef4c1e86e" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7c15f4f0-902b-44d2-b99d-bc72c0f637e1" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="247429c2-6276-4f1e-9cd6-02a6988e28d2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="532d37fc-c1bd-42a3-b546-3aa0c6803251" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="08bb2bb0-7b04-4f0b-95e9-b945dd571793" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="96efe32a-d148-4a24-a5e1-fea8609fc6db" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="37f6be84-00be-49cc-adcb-dbb75a134a42" name="int []" isAbstract="false" isLeaf="false" cachedFullName="int []">
+        <elementDefinition Id="47854197-23e2-48b6-bf5a-fbe39c95299b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="52420bcc-a027-4dab-9bb3-c09dd8e20fa7" name="Datetime" isAbstract="false" isLeaf="false" cachedFullName="Datetime">
+        <elementDefinition Id="53ab4e35-1b70-4c2d-a0d0-719a35ba46a7" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="bd2c55cc-34a8-4546-b395-1a3c29143e2f" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="437f6b97-5e16-4b36-b261-181af39e1531" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="411e647d-74d2-4a87-8fa0-ead2a586a837" name="TimeSpan" isAbstract="false" isLeaf="false" cachedFullName="TimeSpan">
+        <elementDefinition Id="a1281f40-e14c-4a05-af01-a6293f6a3516" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="77c70dd4-65e0-4a57-8184-320b6a22ab7b" name="Usuario" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e7ccd95c-eb23-47d6-9aac-01ee4942848a" />
+        <generalsInternal>
+          <generalization Id="4084b86f-e8b3-4c72-8cb7-00bf00c88ef5" isSubstitutable="false">
+            <classMoniker Id="d5b1eb75-53c3-47eb-b396-5ebbecbde91c" LastKnownName="Persona" />
+            <elementDefinition Id="1759383c-8117-4f50-9913-3e6e096d803f" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="54784549-0e8f-477d-ac1e-e37e47c564e2" name="Contrasena" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dbbb5e7a-e54d-4cff-914b-91df0a2c3c75" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bd2c55cc-34a8-4546-b395-1a3c29143e2f" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="b0e0e1f3-99cf-42c3-9104-c22d6cdfd865" name="Organizado" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c23d2eb5-1b62-4be2-863b-a69a4ac2cd14" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="764bbf3a-9d42-4c78-8636-e04595f637f8" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="764bbf3a-9d42-4c78-8636-e04595f637f8" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e0fdf50b-dadc-42a6-8f3e-271514779ef7" name="Organizado" isAbstract="false" isLeaf="false" cachedFullName="Organizado">
+        <elementDefinition Id="b2672c91-b3f2-4089-8501-41044268639e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="810ab176-4c5e-4b5b-8bee-329ae03a5ffc" name="Organizado" isAbstract="false" isLeaf="false" cachedFullName="Organizado">
+        <elementDefinition Id="b2672c91-b3f2-4089-8501-41044268639e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3387c4f2-cf66-4a6f-99a0-cd174d5fba63" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="96efe32a-d148-4a24-a5e1-fea8609fc6db" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="170d3027-bc81-4606-8440-a1bbbb269d53" name="Organizado" isAbstract="false" isLeaf="false" cachedFullName="Organizado">
+        <elementDefinition Id="b2672c91-b3f2-4089-8501-41044268639e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5c1a80df-180f-4c66-8f3e-83db0131abaf" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="96efe32a-d148-4a24-a5e1-fea8609fc6db" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="dcde0ba3-f967-422c-aab0-4adc9672e2c3" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="96efe32a-d148-4a24-a5e1-fea8609fc6db" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="fb063f99-3dd3-47d4-89c5-39213c2311c4" name="Uml's turnero">
+    <elementDefinition Id="37fd88f6-d2c7-42a1-b83d-8a127b68eea6" />
+    <profileInstances>
+      <packageHasProfileInstances Id="373596fc-984f-485c-b66e-b1a8af29a0fb">
+        <profileInstance Id="bf9177cd-2a59-4e99-b519-bcbea564cdf8" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b4370435-d252-4869-9d01-3607a0c96fa7">
+        <profileInstance Id="13ebfbe9-e7d6-47e9-9dea-48a0a8dfd2cc" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

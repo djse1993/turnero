@@ -1,0 +1,1675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="37fd88f6-d2c7-42a1-b83d-8a127b68eea6"
+  name="Uml's turnero" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="a7a0f051-5661-48c6-81fc-1350dd377375">
+      <body>ID_Study[i] == 49</body>
+    </comment>
+    <comment
+      Id="ef1ea42b-1728-4860-bdea-4e937d5f9057">
+      <body>ID_Study[[i]==50</body>
+    </comment>
+    <comment
+      Id="4b4311de-4a08-4694-9de9-9867f717caa3">
+      <body>Visita.COntEstudioS &lt;9</body>
+    </comment>
+    <comment
+      Id="79fd3d28-c373-4ac4-9b19-c84d9c027637">
+      <body>AUX &gt;0 &amp;&amp; AUX &lt;6
+</body>
+    </comment>
+    <comment
+      Id="fef28632-e039-4138-b197-109ac61d30b6">
+      <body>AUX &gt;6 &amp;&amp; AUX &lt;11
+
+</body>
+    </comment>
+    <comment
+      Id="6791e6c5-0d97-4c3c-9da1-ac5696cda00b">
+      <body>AUX &gt;11 &amp;&amp; AUX &lt;16
+</body>
+    </comment>
+    <comment
+      Id="c08d6a8f-d2a2-4d62-b16a-85ac61648357">
+      <body>AUX &gt;16 &amp;&amp; AUX &lt;2
+1
+
+</body>
+    </comment>
+    <comment
+      Id="d70bc6a6-28c5-4c43-9e2f-4bd538efda83">
+      <body>Visita.COntEstudios &gt;9</body>
+    </comment>
+    <comment
+      Id="2d718495-f68e-4426-a345-afd631cb09b9">
+      <body>ID_Estudios_array[j] &lt; ID_Estudios_array[Posmin]</body>
+    </comment>
+    <comment
+      Id="e2754c29-1795-4afc-a108-053439142d17">
+      <body>ID_Estudios_array[j] &gt; ID_Estudios_array[Posmin]</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <activity
+        Id="6bb4432a-7308-4789-9e7e-e6a77b04f854"
+        name="Funcion que extrae los ID's de la matriz"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="7495860b-9c5f-4ad5-8eb3-19b4835b35a8"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="18f9371e-85a6-4b8d-bfa7-786d40b2d30b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="fa2ede75-8b7a-4993-a310-2a5d39190c52"
+                  LastKnownName="Id_Study, aux, i=0"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="fa2ede75-8b7a-4993-a310-2a5d39190c52"
+            name="Id_Study, aux, i=0"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="aefbf907-a59c-407e-883b-605d294714e4"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="77c620ae-a8a8-44ac-a34d-cd236c81f057"
+                  LastKnownName="For (int i=0; i&lt;ID.Study.Lenght);i++"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="77c620ae-a8a8-44ac-a34d-cd236c81f057"
+            name="For (int i=0; i&lt;ID.Study.Lenght);i++"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2729a267-881a-491d-9fad-533b919e305d"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="b166ee0c-dea9-45b6-8bae-b874a6cb1003"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="018e1a8c-82e6-4a25-b78c-c0926f19febb"
+            name="Aux = 10"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a38f87ea-b3d8-42d9-b311-986f9967909f"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4bce8f8f-7e3c-4c06-a11c-7c0420d0344e"
+                  LastKnownName="Aux  += ID_Study [i] - 48"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="dd63dae3-2a21-4be3-a757-20609a0f2969"
+            name="Aux =20"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8c1b57d3-6154-4ac8-8758-8eefcb6acb3d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4bce8f8f-7e3c-4c06-a11c-7c0420d0344e"
+                  LastKnownName="Aux  += ID_Study [i] - 48"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="b166ee0c-dea9-45b6-8bae-b874a6cb1003"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e9ef2ee5-9ca1-4581-81fe-c9ef306748e4"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="dd63dae3-2a21-4be3-a757-20609a0f2969"
+                  LastKnownName="Aux =20"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="1acdff1b-3650-425f-831c-01a6b9e6cf0e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="018e1a8c-82e6-4a25-b78c-c0926f19febb"
+                  LastKnownName="Aux = 10"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="4bce8f8f-7e3c-4c06-a11c-7c0420d0344e"
+            name="Aux  += ID_Study [i] - 48"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c44907e8-ba5f-4038-830c-0450a7186087"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="f06788f1-a1ec-4b63-89ab-4419d5b4edc8"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="f06788f1-a1ec-4b63-89ab-4419d5b4edc8"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="d9ca4c81-9778-4da4-af98-11a54be0c909"
+        name="Activity2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="076176e1-578b-438b-a649-26b70b66edfb"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9a9a154b-afbd-47ce-a956-8b52c4824e93"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="65cba9c3-ed3f-467b-a90d-bc6b915fb7b7"
+                  LastKnownName="AUX, Visita.CONTESTUDIOS"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="65cba9c3-ed3f-467b-a90d-bc6b915fb7b7"
+            name="AUX, Visita.CONTESTUDIOS"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a02764b9-4a1c-4b19-873b-b6de392b71ce"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="aa2d744f-abcc-474a-b304-1c5ce13f419f"
+                  LastKnownName="Decision2"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b37465c0-75ae-4469-acda-830061812c83"
+            name="iNSERTAR EN la tabla panel basico, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c934289a-0a5a-4b6d-bc35-ee8e593fa9a3"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="1f1237a1-bf45-4655-8786-e085a42dce1a"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="aaaccb19-4be9-413b-b071-c384e2683ffd"
+            name="iNSERTAR EN la tabla qumica clinica, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="85c45683-d96a-4cdb-a78a-90da5e13d132"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="1f1237a1-bf45-4655-8786-e085a42dce1a"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="545b82f3-3da2-431c-b7c8-be99132f47da"
+            name="iNSERTAR EN la serologia  el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ee294ddf-1846-4704-bbbc-38f0b4382f8d"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="1f1237a1-bf45-4655-8786-e085a42dce1a"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="c615033e-7ec9-4d57-b760-b1b4cb764a45"
+            name="iNSERTAR EN la tabla bacterologia, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c1a0c6bd-3624-4b8e-8443-c532b3a7c426"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="1f1237a1-bf45-4655-8786-e085a42dce1a"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="aa2d744f-abcc-474a-b304-1c5ce13f419f"
+            name="Decision2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d6b6683a-f93f-467c-ac6c-f0d43d5d9593"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9a0fcb58-f225-4f1c-bc24-1b07506e10af"
+                  LastKnownName="Visita.CONTESTUDIOS + 1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="25265337-3a70-497b-855c-ed02b8928152"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="00860e48-851b-4e94-af0e-76de5896a6e8"
+                  LastKnownName="Visita.CONTESTUDIOS + 111"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="2aa605e7-9462-4e29-8889-8b1600b5db99"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="bc213791-60d2-4f76-a116-26f30e0b4267"
+                  LastKnownName="Mostrar la cantidad limite de estudios por persona."
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="9662d277-eb36-47d1-b695-133c6ce1f8ae"
+            name="Mostrar por pantalla la cantidad limite des estudios"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="eab024c1-eef5-4d98-8cbf-d86b178c388d"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="1f1237a1-bf45-4655-8786-e085a42dce1a"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="1f1237a1-bf45-4655-8786-e085a42dce1a"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="9a0fcb58-f225-4f1c-bc24-1b07506e10af"
+            name="Visita.CONTESTUDIOS + 1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="18ca0995-f880-45c9-b480-aad83b3ae543"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="4672209d-53b3-4447-8a09-87493f72995b"
+                  LastKnownName="Decision3"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="4672209d-53b3-4447-8a09-87493f72995b"
+            name="Decision3"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="879e8b5d-e93b-4d66-b66d-b855343a799b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b37465c0-75ae-4469-acda-830061812c83"
+                  LastKnownName="iNSERTAR EN la tabla panel basico, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="6571aa22-a5d9-4499-8192-6f667c45001f"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="aaaccb19-4be9-413b-b071-c384e2683ffd"
+                  LastKnownName="iNSERTAR EN la tabla qumica clinica, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="00860e48-851b-4e94-af0e-76de5896a6e8"
+            name="Visita.CONTESTUDIOS + 111"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1fa39231-3fe3-47a7-a193-9573e869c595"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="e06059da-c273-4000-ab6f-4cdb5159725e"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="e06059da-c273-4000-ab6f-4cdb5159725e"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5f2f8296-0148-40ab-8d02-071a4516a314"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="545b82f3-3da2-431c-b7c8-be99132f47da"
+                  LastKnownName="iNSERTAR EN la serologia  el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="e523fd54-c464-4705-a5a7-2f04fec18987"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c615033e-7ec9-4d57-b760-b1b4cb764a45"
+                  LastKnownName="iNSERTAR EN la tabla bacterologia, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="bc213791-60d2-4f76-a116-26f30e0b4267"
+            name="Mostrar la cantidad limite de estudios por persona."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1bc15013-510a-4cdb-b412-82c469d44c9b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="65cba9c3-ed3f-467b-a90d-bc6b915fb7b7"
+                  LastKnownName="AUX, Visita.CONTESTUDIOS"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="a4f81083-87c0-4e4c-97f8-ae9585b9cb2e"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f04af38f-892a-4435-8f5c-277061fce299"
+            isDerived="false"
+            sourceEndRoleName="Usuario"
+            targetEndRoleName="Iniciar El Sistema"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f65a7a6e-6bdb-4bc3-9cda-38af2f0fc6b0"
+              LastKnownName="Iniciar El Sistema"
+              LastKnownLocation="Uml's turnero.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ef587bc2-b9f9-4805-b9bc-58d518964566"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5665068f-3dc8-4143-9258-2d1dd1128ed0"
+                  name="Iniciar El Sistema"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f65a7a6e-6bdb-4bc3-9cda-38af2f0fc6b0"
+        name="Iniciar El Sistema"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="6ad6eb9d-d85b-454b-9c02-9e4e38069914">
+            <useCaseMoniker
+              Id="c18a3436-3a23-47d4-a058-57672192e586"
+              LastKnownName="Mostrar los departamentos con sus respectivos estudios"
+              LastKnownLocation="Uml's turnero.uml" />
+          </include>
+          <include
+            Id="3d87fd98-ac75-4a44-b0e9-ee9325a3c9f0">
+            <useCaseMoniker
+              Id="ae045897-c24d-470e-943b-d49960d66aa8"
+              LastKnownName="Digitar el numero/ID del estudio a realizar por un paciente seleccionado"
+              LastKnownLocation="Uml's turnero.uml" />
+          </include>
+          <include
+            Id="849a7e17-01cb-4cd5-8609-80f6255e3617">
+            <useCaseMoniker
+              Id="ea2464db-2816-464f-a04a-766c54a5fd59"
+              LastKnownName="Mostrar Nombre del estudio, departamento y duracion que tiene."
+              LastKnownLocation="Uml's turnero.uml" />
+          </include>
+          <include
+            Id="f8057a1f-450a-429b-a819-24448abc25f1">
+            <useCaseMoniker
+              Id="2434aa2d-4826-4a43-8630-b1e62f000006"
+              LastKnownName="Mostrar los estudios ordenados de la manera elegida por el usuario."
+              LastKnownLocation="Uml's turnero.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c18a3436-3a23-47d4-a058-57672192e586"
+        name="Mostrar los departamentos con sus respectivos estudios"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ae045897-c24d-470e-943b-d49960d66aa8"
+        name="Digitar el numero/ID del estudio a realizar por un paciente seleccionado"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ea2464db-2816-464f-a04a-766c54a5fd59"
+        name="Mostrar Nombre del estudio, departamento y duracion que tiene."
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2434aa2d-4826-4a43-8630-b1e62f000006"
+        name="Mostrar los estudios ordenados de la manera elegida por el usuario."
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="716b1df6-3ed1-4850-bc74-23a09e07a989"
+        name="Digitar informacion de otro paciente"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="a0264b23-a33d-4927-a29c-6bcd2b7827cd">
+            <useCaseMoniker
+              Id="f65a7a6e-6bdb-4bc3-9cda-38af2f0fc6b0"
+              LastKnownName="Iniciar El Sistema"
+              LastKnownLocation="Uml's turnero.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f5a4fc87-677a-4ec6-b23a-a665b6ccadac"
+        name="Persona"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="5992a842-fe05-45b8-8f83-0a896161ff06"
+            name="id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ad84a252-2345-4504-a4e1-234d08e13160"
+            name="Nombre"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bce1b69d-3ac2-4319-a31d-ac3d893a1675"
+        name="Visitas"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="8b205d56-960b-4337-82b7-b450acb28de3"
+            name="NumPacientes"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7db0da0f-3b7d-4e2a-b76f-59ce5c96c537"
+            name="ContPacientes"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="88f8aa3c-1bfa-4155-8dbc-f697224f78fd"
+            name="MoverEstudios"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4fb9d6eb-6db7-4965-b6bf-b1d7bb2d532a"
+            name="ContEstudios"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="62a89e04-8be6-4c56-8bb1-87ef33f08213"
+            name="Organizar"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="06564fe1-6c90-4c1b-b9b1-59f566868dc5"
+            name="Organizar_Pacientes"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4d5dfc29-175b-4ed0-bfa4-cd2fd18f9bd4"
+        name="Bacteriologia"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="27ab5928-47a0-4b87-bc2e-867754357603"
+            isSubstitutable="false">
+            <classMoniker
+              Id="bce1b69d-3ac2-4319-a31d-ac3d893a1675"
+              LastKnownName="Visitas"
+              LastKnownLocation="Uml's turnero.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="9576b703-a160-4350-8a00-540dd63afdd8"
+            name="Boolean"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="b2672c91-b3f2-4089-8501-41044268639e"
+                LastKnownName="Organizado"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7755c80e-c45c-44ae-8afc-5a53b2b4f13b"
+            name="Hora_realizar"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="96efe32a-d148-4a24-a5e1-fea8609fc6db"
+                LastKnownName="DateTime"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1263cb4c-498c-47a8-b208-8117e69c6dba"
+            name="Organizar_Pacientes"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="583bdf2b-eedc-415a-a05f-71d4c8f22c33"
+        name="Serologia"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="ed2b9ab9-416b-4ae6-aa4f-705c28855faa"
+            isSubstitutable="false">
+            <classMoniker
+              Id="bce1b69d-3ac2-4319-a31d-ac3d893a1675"
+              LastKnownName="Visitas"
+              LastKnownLocation="Uml's turnero.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="93b3762e-e547-420a-adb5-5cc85c3fd206"
+            name="Boolean"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="b2672c91-b3f2-4089-8501-41044268639e"
+                LastKnownName="Organizado"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="15502487-8229-42aa-87d3-06b58cf0cdd6"
+            name="Hora_realizar"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="96efe32a-d148-4a24-a5e1-fea8609fc6db"
+                LastKnownName="DateTime"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ca07fc75-7857-4885-ba00-6d31d20e6a81"
+            name="Organizar_Pacientes"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ce8acf09-bee6-45a9-9f99-87f9d8f56e62"
+        name="Panel Basico"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="728f8c99-7e3a-4574-a12d-16dc2bee1e18"
+            isSubstitutable="false">
+            <classMoniker
+              Id="bce1b69d-3ac2-4319-a31d-ac3d893a1675"
+              LastKnownName="Visitas"
+              LastKnownLocation="Uml's turnero.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="1d89cb7d-f0d0-4da4-9c37-eb2e0342e6db"
+            name="Hora_realizar"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="96efe32a-d148-4a24-a5e1-fea8609fc6db"
+                LastKnownName="DateTime"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="487f5395-cf72-4bbc-9108-f32eb30f5b04"
+            name="Boolean"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="b2672c91-b3f2-4089-8501-41044268639e"
+                LastKnownName="Organizado"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4b5a079f-e6b9-4a76-89c4-2d10bf647826"
+            name="Organizar_Pacientes"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1c78e47a-91db-4df3-9548-420205557010"
+        name="Quimica Clinica"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="0efaf593-997f-4055-873d-793bf42e9f5d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="bce1b69d-3ac2-4319-a31d-ac3d893a1675"
+              LastKnownName="Visitas"
+              LastKnownLocation="Uml's turnero.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="159fcc9c-5251-4360-a067-1358baca2cbb"
+            name="Hora_realizar"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="96efe32a-d148-4a24-a5e1-fea8609fc6db"
+                LastKnownName="DateTime"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="bb9cf5c3-0124-4546-b773-07f9c197b487"
+            name="Organizar_Pacientes"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2c21fce8-e9ae-4698-8553-394586f473da"
+        name="Paciente"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="e0177786-f7d9-4b09-9e96-8aa4d4011f88"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f5a4fc87-677a-4ec6-b23a-a665b6ccadac"
+              LastKnownName="Persona"
+              LastKnownLocation="Uml's turnero.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="aaa07d26-514e-4f89-8e7c-0f4d5e7c9676"
+            name="ID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="afd3af8f-f8db-410b-94f4-3eac7f45754c"
+            name="Nombrepaciente"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1d5ec353-ccfa-4d16-a8ba-cfc54e078ae7"
+            name="NombreESTUDIO"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="71b5fa55-cf11-4aeb-ad63-165ad1b162a2"
+            name="Tiempo_llegada"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="96efe32a-d148-4a24-a5e1-fea8609fc6db"
+                LastKnownName="DateTime"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b693c244-c6e0-480d-bbae-1643fdf8d2a6"
+            name="ID_Estudios_array"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="47854197-23e2-48b6-bf5a-fbe39c95299b"
+                LastKnownName="int []"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="036e6904-3823-4646-8f6e-3d70eef75231"
+            name="AUX"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="da218508-1fe7-4675-8d8b-654173a07f29"
+            name="AUX2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f0295dfb-c87f-40f6-b3a9-e2418bf1382a"
+            name="N"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a48c0d19-3585-4eec-8fc2-264f0a8291ad"
+            name="POSMIN"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="103afa64-bf57-4ed6-a644-c9d94e695598"
+            name="I_AUX"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6adaa0f4-5688-47b6-a656-c899940c9ce6"
+            name="Estudios_paciente"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4887679c-f1fc-4514-87a7-bf87d943b587"
+            name="HORA"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="53ab4e35-1b70-4c2d-a0d0-719a35ba46a7"
+                LastKnownName="Datetime"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="28e0f888-7dd4-48b8-b4f6-e324e1dfe878"
+            name="CONt_N_Estudios"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="596d162b-7499-439e-80bf-8d065a1ebde2"
+            name="estudios_part2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="47854197-23e2-48b6-bf5a-fbe39c95299b"
+                LastKnownName="int []"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a5794eef-d2fc-470c-9433-13c8d9bd9dca"
+            name="Nombre_Paciente"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b5431c3b-8c8b-4b6b-b3c0-ecdff5ec0371"
+            name="ID_Paciente"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bc9cd3c1-dcef-425d-99f4-a0fc0cda0aca"
+            name="HORA_ESTUDIO"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="437f6b97-5e16-4b36-b261-181af39e1531"
+                LastKnownName="string"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7d96857b-79fa-4959-a5f1-5dcb3eff0cf3"
+            name="TIEMPOMINUTE"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="a1281f40-e14c-4a05-af01-a6293f6a3516"
+                LastKnownName="TimeSpan"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3bd5e080-7766-40d8-ac5e-02c40f8fcb21"
+            name="ID_STUDY"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="437f6b97-5e16-4b36-b261-181af39e1531"
+                LastKnownName="string"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ce7f076d-1252-4078-98db-7c6e0ccdfc82"
+            name="CONT"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+                LastKnownName="int"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3c5ed847-6b6f-4c58-9790-a6dee0508095"
+            name="Organizar_Matriz"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3bf306ae-4d18-44f3-85f0-59b68ee3bc0e"
+            name="Mayor_Menor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="af798902-2766-4efe-9da0-7121bcbf1d19"
+            name="Menor_Mayor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="247429c2-6276-4f1e-9cd6-02a6988e28d2"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="96efe32a-d148-4a24-a5e1-fea8609fc6db"
+        name="DateTime" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="47854197-23e2-48b6-bf5a-fbe39c95299b"
+        name="int []" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="53ab4e35-1b70-4c2d-a0d0-719a35ba46a7"
+        name="Datetime" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="437f6b97-5e16-4b36-b261-181af39e1531"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="a1281f40-e14c-4a05-af01-a6293f6a3516"
+        name="TimeSpan" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e7ccd95c-eb23-47d6-9aac-01ee4942848a"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="1759383c-8117-4f50-9913-3e6e096d803f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f5a4fc87-677a-4ec6-b23a-a665b6ccadac"
+              LastKnownName="Persona"
+              LastKnownLocation="Uml's turnero.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="dbbb5e7a-e54d-4cff-914b-91df0a2c3c75"
+            name="Contrasena"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="437f6b97-5e16-4b36-b261-181af39e1531"
+                LastKnownName="string"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c23d2eb5-1b62-4be2-863b-a69a4ac2cd14"
+            name="Organizado"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="Uml's turnero.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="b2672c91-b3f2-4089-8501-41044268639e"
+        name="Organizado" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="37b83cdd-d8e7-4712-9312-1ba2b2cb9174"
+        name="Algoritmo de Seleccion menor a mayor"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="a9cb74f6-c9d9-4d6f-90f1-b753818dda1b"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="70eb5121-3fa7-40d1-aea7-98f565618e58"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="09acc3a5-e535-43ec-9176-c8aba2101115"
+                  LastKnownName="N = ID_Estudios_array.Length"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="09acc3a5-e535-43ec-9176-c8aba2101115"
+            name="N = ID_Estudios_array.Length"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="cac6e069-85aa-4921-a0f7-77c986e21dc0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="08b69d49-61c7-4a93-aca6-720685337f04"
+                  LastKnownName="for (int i=0;i&lt;N - 1;i++)"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="08b69d49-61c7-4a93-aca6-720685337f04"
+            name="for (int i=0;i&lt;N - 1;i++)"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7cd337e7-e243-4dfe-aa0d-243336349a5f"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="09747910-91c2-431d-8674-a2fcffe6dded"
+                  LastKnownName="PosMin= i"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="09747910-91c2-431d-8674-a2fcffe6dded"
+            name="PosMin= i"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2df63793-b5d3-4838-8845-c1e8bd1bdaa4"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b79bd61c-e520-4223-9064-ca079e9febff"
+                  LastKnownName="for (int j=i+1; j&lt;N ;i++)"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b13ae8d6-58f3-4fa8-904f-9cf77d69dac9"
+            name="PosMin=j"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="fa233513-9635-45b3-8d33-8d9877a8ab17"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="2865af07-1563-44e1-a035-a5d872bd2296"
+                  LastKnownName="I_AUX = ID_Estudios_array[i]"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="4f009579-ee6e-4ec9-a9e0-00f3b3bcfeb7"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="10ad03f0-0db9-44cd-844b-28b12d4bd838"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b13ae8d6-58f3-4fa8-904f-9cf77d69dac9"
+                  LastKnownName="PosMin=j"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="3d47a7c5-1d36-4091-9127-9d2597157bc5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="09acc3a5-e535-43ec-9176-c8aba2101115"
+                  LastKnownName="N = ID_Estudios_array.Length"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="2865af07-1563-44e1-a035-a5d872bd2296"
+            name="I_AUX = ID_Estudios_array[i]"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d6bc62c3-6778-4c77-9906-ce52b45eed79"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="94e59a81-b329-4607-8a5a-7fbb920b3e32"
+                  LastKnownName="ID_Estudios_array[i] = ID_Estudios_array[Posmin]"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="94e59a81-b329-4607-8a5a-7fbb920b3e32"
+            name="ID_Estudios_array[i] = ID_Estudios_array[Posmin]"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a6862834-6adc-4476-9b43-1beab9377191"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="a270dac2-22a7-4524-87b3-fa2f48e5e3fa"
+                  LastKnownName="ID_Estudios_array[Posmin] = I_Aux"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="a270dac2-22a7-4524-87b3-fa2f48e5e3fa"
+            name="ID_Estudios_array[Posmin] = I_Aux"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c401cf37-0276-4851-aceb-15b088c58aa9"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="d1ced2bd-8f48-4ccf-9c83-e0c27905f4b0"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b79bd61c-e520-4223-9064-ca079e9febff"
+            name="for (int j=i+1; j&lt;N ;i++)"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9d22ca2d-1e03-4a12-b087-5c3425b0ebfc"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="4f009579-ee6e-4ec9-a9e0-00f3b3bcfeb7"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="Uml's turnero.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="d1ced2bd-8f48-4ccf-9c83-e0c27905f4b0"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

@@ -1,0 +1,28 @@
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\bin\Debug\Turnero.exe
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\bin\Debug\Turnero.pdb
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\obj\x86\Debug\Turnero.Form1.resources
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\obj\x86\Debug\Turnero.Properties.Resources.resources
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\obj\x86\Debug\Turnero.csproj.GenerateResource.Cache
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\obj\x86\Debug\Turnero.exe
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\obj\x86\Debug\Turnero.pdb
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\obj\x86\Debug\Turnero.csprojResolveAssemblyReference.cache
+C:\Users\MAXIMO BOLIVAR\Desktop\Turnero\Turnero\obj\x86\Debug\Turnero.Form2.resources
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.exe
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.pdb
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\bin\Debug\Turnero.exe
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\bin\Debug\Turnero.pdb
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.csprojResolveAssemblyReference.cache
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.Form1.resources
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.Form2.resources
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.Properties.Resources.resources
+C:\Users\DAVID SANCHEZ\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.csproj.GenerateResource.Cache
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.exe
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.pdb
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.Form1.resources
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.Form2.resources
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.Properties.Resources.resources
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\obj\x86\Debug\Turnero.csproj.GenerateResource.Cache
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\bin\Debug\Turnero.exe
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\bin\Debug\Turnero.pdb
+C:\Users\David\Desktop\PUCMM\ISC\PROGRAMACION 1\Tercer Portafolio\Turnero\bin\Debug\MySql.Data.Entity.dll

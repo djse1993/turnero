@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="0f9ca0c7-9f5c-4fec-b10a-585bb974241a" />
+  <nestedChildShapes>
+    <actorShape Id="f0b90d17-83c6-4d6d-9994-b6cf0638d673" absoluteBounds="0.5, 1.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="d523aea0-fc05-4b61-8ed7-5b9b466f1254" LastKnownName="Usuario" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="9208fa43-2f9a-414f-9317-4a8cd03aaacf" absoluteBounds="1.25, 1.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7919ed68-6cfe-4517-8180-2be995cda3e0" LastKnownName="Iniciar El Sistema" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1 : 1.625); (1.25 : 1.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="7103e704-ab29-4c33-9738-64547681d9e7" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="f0b90d17-83c6-4d6d-9994-b6cf0638d673" />
+        <useCaseShapeMoniker Id="9208fa43-2f9a-414f-9317-4a8cd03aaacf" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="eca307c5-310c-40c0-bc88-433ae6a928bd" absoluteBounds="3.125, 0.75, 2.125, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="69ca9962-40d7-4f02-9eaa-5d38abc7293a" LastKnownName="Mostrar los departamentos con sus respectivos estudios" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(2.13953240701555 : 1.46826415224599); (3.15549972813142 : 1.05947018158384)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="Black" useCaseStereotype="incluir">
+      <includeMoniker Id="f5ac6970-feee-412f-8773-eede6a7af68f" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="2.2150099626426103, 1.0166934581284792, 0.33711296319961548, 0.14800345897674561" shapeFieldName="NameDecorator" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <useCaseShapeMoniker Id="9208fa43-2f9a-414f-9317-4a8cd03aaacf" />
+        <useCaseShapeMoniker Id="eca307c5-310c-40c0-bc88-433ae6a928bd" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="ef65cf5f-eff0-481e-9d2b-3d079d39c1d2" absoluteBounds="4.875, 1.125, 2.5, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b4ddb254-9391-4474-a499-00a8cfda0fdf" LastKnownName="Digitar el numero/ID del estudio a realizar por un paciente seleccionado" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(2.24918566721199 : 1.61073755236537); (4.88063065925753 : 1.5355534097355)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="incluir">
+      <includeMoniker Id="9ec6f6dd-5135-4cfd-9c70-60aa32b179f3" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="3.0625, 1.3125, 0.33711296319961548, 0.14800345897674561" shapeFieldName="NameDecorator" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <useCaseShapeMoniker Id="9208fa43-2f9a-414f-9317-4a8cd03aaacf" />
+        <useCaseShapeMoniker Id="ef65cf5f-eff0-481e-9d2b-3d079d39c1d2" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="52809935-48c2-451f-8dc0-8f1ecd0f1bfa" absoluteBounds="3.5, 2, 2.625, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="4ca3e38e-981c-4f4a-8bb9-25ee7ce80d18" LastKnownName="Mostrar Nombre del estudio, departamento y duracion que tiene." />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(2.2129238218476 : 1.71947424935665); (3.91695729640249 : 2.06723618293928)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="incluir">
+      <includeMoniker Id="6cac088b-0624-49d8-9a90-3ae778e7c84d" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="2.5832434034313723, 1.6353569362940648, 0.33711296319961548, 0.14800345897674561" shapeFieldName="NameDecorator" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <useCaseShapeMoniker Id="9208fa43-2f9a-414f-9317-4a8cd03aaacf" />
+        <useCaseShapeMoniker Id="52809935-48c2-451f-8dc0-8f1ecd0f1bfa" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="38c7742b-9b2b-4bf1-9b34-3ea81c901997" absoluteBounds="2.875, 2.75, 2.375, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e6eccf47-254e-44a1-b65f-1b3105995aaa" LastKnownName="Mostrar los estudios ordenados de la manera elegida por el usuario." />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(2.06337932240825 : 1.8198033625781); (3.59955762095596 : 2.77472500762127)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="incluir">
+      <includeMoniker Id="cace3958-a200-4e3f-9218-601a553c08f2" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="9208fa43-2f9a-414f-9317-4a8cd03aaacf" />
+        <useCaseShapeMoniker Id="38c7742b-9b2b-4bf1-9b34-3ea81c901997" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="f2b7eccc-9928-4009-a605-4366e677a409" absoluteBounds="1, 2.625, 1, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f4d36059-bd61-4210-a51d-dd7605174b01" LastKnownName="Digitar informacion de otro paciente" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(1.57522099849323 : 2.62997925866392); (1.70668519181758 : 1.87406014704892)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="extender">
+      <extendMoniker Id="d0dac364-c680-4d21-aeeb-56ab148836b9" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="f2b7eccc-9928-4009-a605-4366e677a409" />
+        <useCaseShapeMoniker Id="9208fa43-2f9a-414f-9317-4a8cd03aaacf" />
+      </nodes>
+    </extendConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

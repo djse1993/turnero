@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b125652c-7474-4d54-ba3e-7837e447a786" name="Activity2" linkedPackageId="b4811dae-6fcd-4770-97df-a47975d85131" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="553c495c-93fb-4d16-b30e-ad1e21bf7d46">
+      <elementDefinition Id="4b4311de-4a08-4694-9de9-9867f717caa3" />
+      <body>Visita.COntEstudioS &lt;9</body>
+    </comment>
+    <comment Id="030def79-a3d5-46a6-a63a-78f00a69cd91">
+      <elementDefinition Id="79fd3d28-c373-4ac4-9b19-c84d9c027637" />
+      <body>AUX &gt;0 &amp;&amp; AUX &lt;6
+</body>
+    </comment>
+    <comment Id="fae33401-da37-41c0-9cd0-c14a52c7a63d">
+      <elementDefinition Id="fef28632-e039-4138-b197-109ac61d30b6" />
+      <body>AUX &gt;6 &amp;&amp; AUX &lt;11
+
+</body>
+    </comment>
+    <comment Id="ddd7bb1f-3819-463c-8bbe-24eff41d8f95">
+      <elementDefinition Id="6791e6c5-0d97-4c3c-9da1-ac5696cda00b" />
+      <body>AUX &gt;11 &amp;&amp; AUX &lt;16
+</body>
+    </comment>
+    <comment Id="83b6d1db-0b2e-4672-b764-1ff7baf6ace4">
+      <elementDefinition Id="c08d6a8f-d2a2-4d62-b16a-85ac61648357" />
+      <body>AUX &gt;16 &amp;&amp; AUX &lt;2
+1
+
+</body>
+    </comment>
+    <comment Id="f7e3bf8a-fb16-42e1-bc9f-3d3fe9c8310b">
+      <elementDefinition Id="d70bc6a6-28c5-4c43-9e2f-4bd538efda83" />
+      <body>Visita.COntEstudios &gt;9</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="1cd80f94-bb47-4241-94c3-02d408252dad">
+      <profileInstance Id="9db3f516-35bf-4178-8823-f9de6e2b1464" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="25a98c75-8bd1-415e-b68a-055cc2d47b94">
+      <profileInstance Id="889316eb-4744-47c9-85cf-534aff6497f6" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="bf463427-1047-4252-bd44-3d6d1e36d744" name="Activity2" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="d9ca4c81-9778-4da4-af98-11a54be0c909" />
+        <nodes>
+          <initialNode Id="37ebc9a1-db19-4c2c-a57d-a3d7b16edcd3" name="Initial1" isLeaf="false">
+            <elementDefinition Id="076176e1-578b-438b-a649-26b70b66edfb" />
+            <flowNodeTargets>
+              <controlFlow Id="b01cd21b-36ae-4596-8471-9b63e4126358" isLeaf="false">
+                <opaqueActionMoniker Id="3e9b8b74-a034-4c3b-ad13-f9e63876e0a2" LastKnownName="AUX, Visita.CONTESTUDIOS" />
+                <elementDefinition Id="9a9a154b-afbd-47ce-a956-8b52c4824e93" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="3e9b8b74-a034-4c3b-ad13-f9e63876e0a2" name="AUX, Visita.CONTESTUDIOS" isLeaf="false">
+            <elementDefinition Id="65cba9c3-ed3f-467b-a90d-bc6b915fb7b7" />
+            <flowNodeTargets>
+              <controlFlow Id="ce8a0d08-9065-4934-97df-b19ab5d9292b" isLeaf="false">
+                <decisionNodeMoniker Id="4b965ec8-4f44-44a6-af0d-3d58e661dbee" LastKnownName="Decision2" />
+                <elementDefinition Id="a02764b9-4a1c-4b19-873b-b6de392b71ce" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f6e3afbf-3c5d-4ed4-9c27-327889b59c47" name="iNSERTAR EN la tabla panel basico, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente" isLeaf="false">
+            <elementDefinition Id="b37465c0-75ae-4469-acda-830061812c83" />
+            <flowNodeTargets>
+              <controlFlow Id="aaa8b1a6-19cf-4582-86e8-f69194f85141" isLeaf="false">
+                <activityFinalNodeMoniker Id="244c8029-2f6d-41d2-abbe-d6f3384f5730" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="c934289a-0a5a-4b6d-bc35-ee8e593fa9a3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ad5ec4e8-0570-4480-ab4a-8716d7301d45" name="iNSERTAR EN la tabla qumica clinica, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1" isLeaf="false">
+            <elementDefinition Id="aaaccb19-4be9-413b-b071-c384e2683ffd" />
+            <flowNodeTargets>
+              <controlFlow Id="ba7006c6-9229-4fb1-98c2-e7ee10c243b7" isLeaf="false">
+                <activityFinalNodeMoniker Id="244c8029-2f6d-41d2-abbe-d6f3384f5730" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="85c45683-d96a-4cdb-a78a-90da5e13d132" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="029e4a7e-a8af-4716-84b1-8cdfb11ef480" name="iNSERTAR EN la serologia  el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1" isLeaf="false">
+            <elementDefinition Id="545b82f3-3da2-431c-b7c8-be99132f47da" />
+            <flowNodeTargets>
+              <controlFlow Id="3b6eeb74-37ba-4030-bce2-f2841a2ebc1a" isLeaf="false">
+                <activityFinalNodeMoniker Id="244c8029-2f6d-41d2-abbe-d6f3384f5730" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="ee294ddf-1846-4704-bbbc-38f0b4382f8d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="4f756cae-96f2-457f-97b4-b16a440a2213" name="iNSERTAR EN la tabla bacterologia, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1" isLeaf="false">
+            <elementDefinition Id="c615033e-7ec9-4d57-b760-b1b4cb764a45" />
+            <flowNodeTargets>
+              <controlFlow Id="26704151-e744-4b41-9dc6-9d07723cb359" isLeaf="false">
+                <activityFinalNodeMoniker Id="244c8029-2f6d-41d2-abbe-d6f3384f5730" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="c1a0c6bd-3624-4b8e-8443-c532b3a7c426" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="4b965ec8-4f44-44a6-af0d-3d58e661dbee" name="Decision2" isLeaf="false">
+            <elementDefinition Id="aa2d744f-abcc-474a-b304-1c5ce13f419f" />
+            <flowNodeTargets>
+              <controlFlow Id="c64c8158-9740-4430-b5c9-d2ca44679732" isLeaf="false">
+                <opaqueActionMoniker Id="e4e2ae03-b1b9-4ce8-a07a-cd171e0945dd" LastKnownName="Visita.CONTESTUDIOS + 1" />
+                <elementDefinition Id="d6b6683a-f93f-467c-ac6c-f0d43d5d9593" />
+              </controlFlow>
+              <controlFlow Id="8319f7c7-6e8c-4f7f-be8b-f4af9b2e70d6" isLeaf="false">
+                <opaqueActionMoniker Id="7d545627-3760-46c5-be07-9e258e0bfc7e" LastKnownName="Visita.CONTESTUDIOS + 111" />
+                <elementDefinition Id="25265337-3a70-497b-855c-ed02b8928152" />
+              </controlFlow>
+              <controlFlow Id="365a5986-8e62-4833-82f3-49e928fdc6f5" isLeaf="false">
+                <opaqueActionMoniker Id="83e15a29-badf-468e-8347-f28bda300c55" LastKnownName="Mostrar la cantidad limite de estudios por persona." />
+                <elementDefinition Id="2aa605e7-9462-4e29-8889-8b1600b5db99" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="89a907ab-6337-4bc6-9d5a-fbc77c4a5595" name="Mostrar por pantalla la cantidad limite des estudios" isLeaf="false">
+            <elementDefinition Id="9662d277-eb36-47d1-b695-133c6ce1f8ae" />
+            <flowNodeTargets>
+              <controlFlow Id="95bba9a2-cd9d-4a42-9515-cfd69cb13ff2" isLeaf="false">
+                <activityFinalNodeMoniker Id="244c8029-2f6d-41d2-abbe-d6f3384f5730" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="eab024c1-eef5-4d98-8cbf-d86b178c388d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="244c8029-2f6d-41d2-abbe-d6f3384f5730" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="1f1237a1-bf45-4655-8786-e085a42dce1a" />
+          </activityFinalNode>
+          <opaqueAction Id="e4e2ae03-b1b9-4ce8-a07a-cd171e0945dd" name="Visita.CONTESTUDIOS + 1" isLeaf="false">
+            <elementDefinition Id="9a0fcb58-f225-4f1c-bc24-1b07506e10af" />
+            <flowNodeTargets>
+              <controlFlow Id="b8d41773-f6ca-4f97-8e78-cb0f182f6eb8" isLeaf="false">
+                <decisionNodeMoniker Id="82b3f772-c86b-4a54-b934-69734677f2fc" LastKnownName="Decision3" />
+                <elementDefinition Id="18ca0995-f880-45c9-b480-aad83b3ae543" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="82b3f772-c86b-4a54-b934-69734677f2fc" name="Decision3" isLeaf="false">
+            <elementDefinition Id="4672209d-53b3-4447-8a09-87493f72995b" />
+            <flowNodeTargets>
+              <controlFlow Id="67e8377f-1225-4cf6-9385-fd0eb22ecbf0" isLeaf="false">
+                <opaqueActionMoniker Id="f6e3afbf-3c5d-4ed4-9c27-327889b59c47" LastKnownName="iNSERTAR EN la tabla panel basico, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente" />
+                <elementDefinition Id="879e8b5d-e93b-4d66-b66d-b855343a799b" />
+              </controlFlow>
+              <controlFlow Id="25693972-f22b-46e4-89cf-0fc58a60b6be" isLeaf="false">
+                <opaqueActionMoniker Id="ad5ec4e8-0570-4480-ab4a-8716d7301d45" LastKnownName="iNSERTAR EN la tabla qumica clinica, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1" />
+                <elementDefinition Id="6571aa22-a5d9-4499-8192-6f667c45001f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="7d545627-3760-46c5-be07-9e258e0bfc7e" name="Visita.CONTESTUDIOS + 111" isLeaf="false">
+            <elementDefinition Id="00860e48-851b-4e94-af0e-76de5896a6e8" />
+            <flowNodeTargets>
+              <controlFlow Id="4514e2e1-199e-4c2f-8f11-5c23a00f1e53" isLeaf="false">
+                <decisionNodeMoniker Id="7eea58d7-bdf4-4fda-bb2b-c211f8d20c0a" LastKnownName="Decision1" />
+                <elementDefinition Id="1fa39231-3fe3-47a7-a193-9573e869c595" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="7eea58d7-bdf4-4fda-bb2b-c211f8d20c0a" name="Decision1" isLeaf="false">
+            <elementDefinition Id="e06059da-c273-4000-ab6f-4cdb5159725e" />
+            <flowNodeTargets>
+              <controlFlow Id="4365905b-f525-4bbc-bb69-4787b77ecb82" isLeaf="false">
+                <opaqueActionMoniker Id="029e4a7e-a8af-4716-84b1-8cdfb11ef480" LastKnownName="iNSERTAR EN la serologia  el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1" />
+                <elementDefinition Id="5f2f8296-0148-40ab-8d02-071a4516a314" />
+              </controlFlow>
+              <controlFlow Id="86024688-cc60-44f4-81e5-8a68d7b465af" isLeaf="false">
+                <opaqueActionMoniker Id="4f756cae-96f2-457f-97b4-b16a440a2213" LastKnownName="iNSERTAR EN la tabla bacterologia, el nombre de lestudio, el ID de lestudio, Hora de estudio y id de paciente1" />
+                <elementDefinition Id="e523fd54-c464-4705-a5a7-2f04fec18987" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="83e15a29-badf-468e-8347-f28bda300c55" name="Mostrar la cantidad limite de estudios por persona." isLeaf="false">
+            <elementDefinition Id="bc213791-60d2-4f76-a116-26f30e0b4267" />
+            <flowNodeTargets>
+              <controlFlow Id="08f96da2-bdf8-4dfa-b134-98d3deecd65b" isLeaf="false">
+                <opaqueActionMoniker Id="3e9b8b74-a034-4c3b-ad13-f9e63876e0a2" LastKnownName="AUX, Visita.CONTESTUDIOS" />
+                <elementDefinition Id="1bc15013-510a-4cdb-b412-82c469d44c9b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="b4811dae-6fcd-4770-97df-a47975d85131" name="Uml's turnero">
+    <elementDefinition Id="37fd88f6-d2c7-42a1-b83d-8a127b68eea6" />
+  </package>
+</activityRootModel>

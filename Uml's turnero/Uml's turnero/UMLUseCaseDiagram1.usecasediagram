@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="0f9ca0c7-9f5c-4fec-b10a-585bb974241a" name="UMLUseCaseDiagram1" linkedPackageId="2810c0ce-5153-429c-8d6e-7056bbcc5570" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="e0e8dfcb-f95e-476f-8115-e9afd571ee1c">
+      <profileInstance Id="d15a7846-4247-40b7-a864-22806f3e25fc" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2f88bddf-dbc1-4a4a-a6d7-cce371432ffb">
+      <profileInstance Id="74b16588-ec41-4fd3-a4d5-dbd766766359" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="d523aea0-fc05-4b61-8ed7-5b9b466f1254" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a4f81083-87c0-4e4c-97f8-ae9585b9cb2e" />
+        <targetEnds>
+          <association Id="7103e704-ab29-4c33-9738-64547681d9e7" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="Iniciar El Sistema" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7919ed68-6cfe-4517-8180-2be995cda3e0" LastKnownName="Iniciar El Sistema" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8eb85a38-c78f-4471-aed7-6e6f4b25213e" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ef587bc2-b9f9-4805-b9bc-58d518964566" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="05812376-1bd2-430b-bc4c-9e1830764324" name="Iniciar El Sistema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5665068f-3dc8-4143-9258-2d1dd1128ed0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f04af38f-892a-4435-8f5c-277061fce299" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7919ed68-6cfe-4517-8180-2be995cda3e0" name="Iniciar El Sistema" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f65a7a6e-6bdb-4bc3-9cda-38af2f0fc6b0" />
+        <additions>
+          <include Id="f5ac6970-feee-412f-8773-eede6a7af68f">
+            <useCaseMoniker Id="69ca9962-40d7-4f02-9eaa-5d38abc7293a" LastKnownName="Mostrar los departamentos con sus respectivos estudios" />
+            <elementDefinition Id="6ad6eb9d-d85b-454b-9c02-9e4e38069914" />
+          </include>
+          <include Id="9ec6f6dd-5135-4cfd-9c70-60aa32b179f3">
+            <useCaseMoniker Id="b4ddb254-9391-4474-a499-00a8cfda0fdf" LastKnownName="Digitar el numero/ID del estudio a realizar por un paciente seleccionado" />
+            <elementDefinition Id="3d87fd98-ac75-4a44-b0e9-ee9325a3c9f0" />
+          </include>
+          <include Id="6cac088b-0624-49d8-9a90-3ae778e7c84d">
+            <useCaseMoniker Id="4ca3e38e-981c-4f4a-8bb9-25ee7ce80d18" LastKnownName="Mostrar Nombre del estudio, departamento y duracion que tiene." />
+            <elementDefinition Id="849a7e17-01cb-4cd5-8609-80f6255e3617" />
+          </include>
+          <include Id="cace3958-a200-4e3f-9218-601a553c08f2">
+            <useCaseMoniker Id="e6eccf47-254e-44a1-b65f-1b3105995aaa" LastKnownName="Mostrar los estudios ordenados de la manera elegida por el usuario." />
+            <elementDefinition Id="f8057a1f-450a-429b-a819-24448abc25f1" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="69ca9962-40d7-4f02-9eaa-5d38abc7293a" name="Mostrar los departamentos con sus respectivos estudios" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c18a3436-3a23-47d4-a058-57672192e586" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b4ddb254-9391-4474-a499-00a8cfda0fdf" name="Digitar el numero/ID del estudio a realizar por un paciente seleccionado" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ae045897-c24d-470e-943b-d49960d66aa8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4ca3e38e-981c-4f4a-8bb9-25ee7ce80d18" name="Mostrar Nombre del estudio, departamento y duracion que tiene." isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ea2464db-2816-464f-a04a-766c54a5fd59" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e6eccf47-254e-44a1-b65f-1b3105995aaa" name="Mostrar los estudios ordenados de la manera elegida por el usuario." isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2434aa2d-4826-4a43-8630-b1e62f000006" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f4d36059-bd61-4210-a51d-dd7605174b01" name="Digitar informacion de otro paciente" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="716b1df6-3ed1-4850-bc74-23a09e07a989" />
+        <extendedCases>
+          <extend Id="d0dac364-c680-4d21-aeeb-56ab148836b9">
+            <useCaseMoniker Id="7919ed68-6cfe-4517-8180-2be995cda3e0" LastKnownName="Iniciar El Sistema" />
+            <elementDefinition Id="a0264b23-a33d-4927-a29c-6bcd2b7827cd" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="2810c0ce-5153-429c-8d6e-7056bbcc5570" name="Uml's turnero">
+    <elementDefinition Id="37fd88f6-d2c7-42a1-b83d-8a127b68eea6" />
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="e43480e2-a1b1-45f2-a0d8-80e772769f6a" name="Funcion que extrae los ID's de la matriz" linkedPackageId="ac01ad48-8da0-4af2-aa08-0df74b943465" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="fddf03b5-3a27-4759-ab4b-dcb5c3df79a9">
+      <elementDefinition Id="a7a0f051-5661-48c6-81fc-1350dd377375" />
+      <body>ID_Study[i] == 49</body>
+    </comment>
+    <comment Id="164e51db-a517-4636-94cf-43e9acdc441f">
+      <elementDefinition Id="ef1ea42b-1728-4860-bdea-4e937d5f9057" />
+      <body>ID_Study[[i]==50</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="1d557e29-4a01-4770-b190-51e034b9aade" name="Funcion que extrae los ID's de la matriz" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="6bb4432a-7308-4789-9e7e-e6a77b04f854" />
+        <nodes>
+          <initialNode Id="bda1887e-e137-44c2-8396-ed0ed43af210" name="Initial1" isLeaf="false">
+            <elementDefinition Id="7495860b-9c5f-4ad5-8eb3-19b4835b35a8" />
+            <flowNodeTargets>
+              <controlFlow Id="dab79cfa-1106-4e34-a977-0a48e24dcf0d" isLeaf="false">
+                <opaqueActionMoniker Id="4ceb42e7-8f24-4524-9801-c2b79c069e5b" LastKnownName="Id_Study, aux, i=0" />
+                <elementDefinition Id="18f9371e-85a6-4b8d-bfa7-786d40b2d30b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="4ceb42e7-8f24-4524-9801-c2b79c069e5b" name="Id_Study, aux, i=0" isLeaf="false">
+            <elementDefinition Id="fa2ede75-8b7a-4993-a310-2a5d39190c52" />
+            <flowNodeTargets>
+              <controlFlow Id="5342b987-e14b-44e3-932c-90b765f7ece6" isLeaf="false">
+                <opaqueActionMoniker Id="5cf47ad5-478f-4e3e-be29-762eec2b8d04" LastKnownName="For (int i=0; i&lt;ID.Study.Lenght);i++" />
+                <elementDefinition Id="aefbf907-a59c-407e-883b-605d294714e4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="5cf47ad5-478f-4e3e-be29-762eec2b8d04" name="For (int i=0; i&lt;ID.Study.Lenght);i++" isLeaf="false">
+            <elementDefinition Id="77c620ae-a8a8-44ac-a34d-cd236c81f057" />
+            <flowNodeTargets>
+              <controlFlow Id="d1d22731-e89c-4ad1-b5f2-7a6050d3ab4e" isLeaf="false">
+                <decisionNodeMoniker Id="f42e0cab-e7d9-4bc0-8168-8ea3690b7de1" LastKnownName="Decision1" />
+                <elementDefinition Id="2729a267-881a-491d-9fad-533b919e305d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="cbaf005e-9761-45e8-b635-8bef16a01c24" name="Aux = 10" isLeaf="false">
+            <elementDefinition Id="018e1a8c-82e6-4a25-b78c-c0926f19febb" />
+            <flowNodeTargets>
+              <controlFlow Id="01a9eac2-fe90-45db-bc51-e14afbcdfcbd" isLeaf="false">
+                <opaqueActionMoniker Id="324c9340-23e7-46ea-a8f8-c53f704c0956" LastKnownName="Aux  += ID_Study [i] - 48" />
+                <elementDefinition Id="a38f87ea-b3d8-42d9-b311-986f9967909f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="c1b7920b-cd13-4297-aac2-5d88c646440d" name="Aux =20" isLeaf="false">
+            <elementDefinition Id="dd63dae3-2a21-4be3-a757-20609a0f2969" />
+            <flowNodeTargets>
+              <controlFlow Id="74620f32-ca73-459b-90d3-f95fb369a6c5" isLeaf="false">
+                <opaqueActionMoniker Id="324c9340-23e7-46ea-a8f8-c53f704c0956" LastKnownName="Aux  += ID_Study [i] - 48" />
+                <elementDefinition Id="8c1b57d3-6154-4ac8-8758-8eefcb6acb3d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="f42e0cab-e7d9-4bc0-8168-8ea3690b7de1" name="Decision1" isLeaf="false">
+            <elementDefinition Id="b166ee0c-dea9-45b6-8bae-b874a6cb1003" />
+            <flowNodeTargets>
+              <controlFlow Id="f1b67b75-4256-4542-97b6-a46444836030" isLeaf="false">
+                <opaqueActionMoniker Id="c1b7920b-cd13-4297-aac2-5d88c646440d" LastKnownName="Aux =20" />
+                <elementDefinition Id="e9ef2ee5-9ca1-4581-81fe-c9ef306748e4" />
+              </controlFlow>
+              <controlFlow Id="10bbcf50-7b63-4b24-9686-5d833a227d22" isLeaf="false">
+                <opaqueActionMoniker Id="cbaf005e-9761-45e8-b635-8bef16a01c24" LastKnownName="Aux = 10" />
+                <elementDefinition Id="1acdff1b-3650-425f-831c-01a6b9e6cf0e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="324c9340-23e7-46ea-a8f8-c53f704c0956" name="Aux  += ID_Study [i] - 48" isLeaf="false">
+            <elementDefinition Id="4bce8f8f-7e3c-4c06-a11c-7c0420d0344e" />
+            <flowNodeTargets>
+              <controlFlow Id="7c27ed93-ac0d-4a74-9a90-c46b00353eb5" isLeaf="false">
+                <activityFinalNodeMoniker Id="bc420a57-e22e-4f69-ae80-efe8e9fba056" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="c44907e8-ba5f-4038-830c-0450a7186087" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="bc420a57-e22e-4f69-ae80-efe8e9fba056" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="f06788f1-a1ec-4b63-89ab-4419d5b4edc8" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="ac01ad48-8da0-4af2-aa08-0df74b943465" name="Uml's turnero">
+    <elementDefinition Id="37fd88f6-d2c7-42a1-b83d-8a127b68eea6" />
+    <profileInstances>
+      <packageHasProfileInstances Id="27501cf6-5437-4472-9eb3-90645547f5a9">
+        <profileInstance Id="693bb9d6-5c14-467a-a658-dca712780f8d" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="9af97320-6531-4324-b0c7-aa06ea9b6832">
+        <profileInstance Id="566248cd-8fbe-4812-99c6-eda473a350a4" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>
